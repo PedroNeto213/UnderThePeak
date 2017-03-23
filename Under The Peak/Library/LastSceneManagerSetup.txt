@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Cave.unity
+- path: Assets/SCENES/Terrain Test.unity
   isLoaded: 1
   isActive: 1
