@@ -25,6 +25,7 @@ public class PlayerStats : MonoBehaviour
 		thirst = Mathf.Clamp(thirst,0,100);
 		bodyTemp = Mathf.Clamp(bodyTemp,0,100);
 
+
 		if(hunger <= 0)
 			hunger = 0;
 

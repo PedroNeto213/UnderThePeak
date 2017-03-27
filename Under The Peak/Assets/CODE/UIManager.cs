@@ -22,8 +22,8 @@ public class UIManager : MonoBehaviour
 
 	void Update () 
 	{
-		hungerUI.text = playerStats.hunger.ToString();
-		thirstUI.text = playerStats.thirst.ToString();
-		btUI.text = playerStats.bodyTemp.ToString();
+		hungerUI.text = "Hunger: " + playerStats.hunger.ToString();
+		thirstUI.text = "Thirst: " + playerStats.thirst.ToString();
+		btUI.text = "Temperature: " + playerStats.bodyTemp.ToString();
 	}
 }
